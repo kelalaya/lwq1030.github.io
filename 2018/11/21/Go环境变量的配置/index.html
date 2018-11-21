@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="如需添加成员 请致信lwq1030@dlmu.edu.cn说明。同时附加姓名 身份 GitHub等相关个人信息。 联系电话：18842676556">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于本站">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta name="description" content="下载安装好Golang后，进入命令行。vim .bash_profile 创建配置文件。GOPATH可以理解为项目空间，GOBIN为GOPATH/bin，用于存放编译的go包。编译过的包会变成以.a结尾的文件。创建项目时候必须先指定GOPATH，同时要将编译的包放在GOPATH的目录下面，否则在执行go install的时候会报错：go install: no install location f">
+<meta property="og:type" content="article">
+<meta property="og:title" content="李桑学习区块链">
+<meta property="og:url" content="http://yoursite.com/2018/11/21/Go环境变量的配置/index.html">
 <meta property="og:site_name" content="李桑学习区块链">
-<meta property="og:description" content="如需添加成员 请致信lwq1030@dlmu.edu.cn说明。同时附加姓名 身份 GitHub等相关个人信息。 联系电话：18842676556">
+<meta property="og:description" content="下载安装好Golang后，进入命令行。vim .bash_profile 创建配置文件。GOPATH可以理解为项目空间，GOBIN为GOPATH/bin，用于存放编译的go包。编译过的包会变成以.a结尾的文件。创建项目时候必须先指定GOPATH，同时要将编译的包放在GOPATH的目录下面，否则在执行go install的时候会报错：go install: no install location f">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-06-06T03:31:41.939Z">
+<meta property="og:updated_time" content="2018-11-21T04:15:01.187Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于本站">
-<meta name="twitter:description" content="如需添加成员 请致信lwq1030@dlmu.edu.cn说明。同时附加姓名 身份 GitHub等相关个人信息。 联系电话：18842676556">
+<meta name="twitter:title" content="李桑学习区块链">
+<meta name="twitter:description" content="下载安装好Golang后，进入命令行。vim .bash_profile 创建配置文件。GOPATH可以理解为项目空间，GOBIN为GOPATH/bin，用于存放编译的go包。编译过的包会变成以.a结尾的文件。创建项目时候必须先指定GOPATH，同时要将编译的包放在GOPATH的目录下面，否则在执行go install的时候会报错：go install: no install location f">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/about/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/11/21/Go环境变量的配置/"/>
 
 
 
 
 
-  <title>关于本站 | 李桑学习区块链</title>
+  <title> | 李桑学习区块链</title>
   
 
 
@@ -240,34 +240,138 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/21/Go环境变量的配置/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Author">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="李桑学习区块链">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">关于本站</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <p> 如需添加成员 请致信<a href="mailto:lwq1030@dlmu.edu.cn" target="_blank" rel="noopener">lwq1030@dlmu.edu.cn</a>说明。同时附加姓名 身份 GitHub等相关个人信息。<br> 联系电话：18842676556</p>
-
+          <h1 class="post-title" itemprop="name headline"></h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-21T12:15:01+08:00">
+                2018-11-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>下载安装好Golang后，进入命令行。<br>vim .bash_profile 创建配置文件。<br>GOPATH可以理解为项目空间，GOBIN为GOPATH/bin，用于存放编译的go包。编译过的包会变成以.a结尾的文件。<br>创建项目时候必须先指定GOPATH，同时要将编译的包放在GOPATH的目录下面，否则在执行go install的时候会报错：go install: no install location for directory /user/liwenqi/go outside GOPATH。<br>像我GITHUB中最近上传的代码，text-pow这个项目的core在进行install后，会在bin生成一个core.exe文件，同时会在pkg文件夹下生成core.a包，这样就可以在项目的其他go文件中被import。其实GO语言环境变量的配置非常简单，只是GOPATH这个变量对install有很大影响。 </p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/06/20/使用Git/" rel="next" title="使用Git">
+                <i class="fa fa-chevron-left"></i> 使用Git
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
